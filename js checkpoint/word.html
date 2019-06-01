@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basic JavaScript</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+ <div id="decor">
+        <i onclick="tobold()" class="fas fa-3x fa-bold"></i>  
+        <i onclick="toitalic()" class="fas fa-3x fa-italic"></i>
+        <i onclick="tounderline()" class="fas fa-3x fa-underline"></i>
+        <button onclick="tolist1()" class="police des" id="lis" type="button">       
+          <i class="fas fa-3x fa-font"></i>
+          <select onchange="topolice(this);" size="1" id="list1">
+            <option>Georgia</option>
+            <option>Palatino Linotype</option>
+            <option>Book Antiqua</option>
+            <option>Times New Roman</option>
+            <option>Arial</option>
+            <option>Helvetica</option>
+            <option>Arial Black</option>
+            <option>Impact</option>
+            <option>Lucida Sans Unicode</option>
+            <option>Tahoma</option>
+            <option>Verdana</option>
+            <option>Courier New</option>
+            <option>Lucida Console</option>
+          </select>
+          </button>
+       <button onclick="tofontsize()" class="fontsize des" type="button" >
+        <i class="fas fa-3x fa-pencil-alt"></i>
+        <select onchange="tofontsize(this);" size="1">
+          <option>xx-small</option>
+          <option>x-small</option>
+          <option>small</option>
+          <option>medium</option>
+          <option>large</option>
+          <option>x-large</option>
+          <option>xx-large</option>
+          <option>100%</option>
+          <option>250%</option>
+          <option>2cm</option>
+          <option>100px</option>
+        </select>
+       </button>
+  </div>     
+  <div id="miseenpage">   
+       <p id="text"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid veritatis reiciendis, doloribus numquam aspernatur tempora natus ut placeat excepturi nobis dolorem quae voluptatem, rem voluptas nulla explicabo. Facilis, itaque nobis?</p>
+  </div>     
+       <script src="js/main.js"></script>
+</body>
+
+</html>
